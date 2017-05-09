@@ -1,0 +1,322 @@
+[
+  {
+    "id" : 1,
+    "patient_id" : "94051545631",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 2,
+      "day" : 10,
+      "hours" : 10,
+      "minutes" : 10
+    },
+    "doctor_id" : 1,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.8,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 161,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 50,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 144,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 3.8,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "patient_id" : "94051545631",
+    "date_time" : {
+      "year" : 2016,
+      "month" : 10,
+      "day" : 15,
+      "hours" : 10,
+      "minutes" : 25
+    },
+    "doctor_id" : 2,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.85,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 195,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 55,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 140,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "patient_id" : "92062153213",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 3,
+      "day" : 2,
+      "hours" : 11,
+      "minutes" : 15
+    },
+    "doctor_id" : 2,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.8,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 165,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 100,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 134,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 4.6,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "patient_id" : "95013057291",
+    "date_time" : {
+      "year" : 2016,
+      "month" : 12,
+      "day" : 10,
+      "hours" : 12,
+      "minutes" : 30
+    },
+    "doctor_id" : 2,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 1,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 185,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 120,
+        "unit" : "μg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "patient_id" : "95013057291",
+    "date_time" : {
+      "year" : 2016,
+      "month" : 9,
+      "day" : 18,
+      "hours" : 12,
+      "minutes" : 10
+    },
+    "doctor_id" : 1,
+    "parameter" : [
+      {
+        "name" : "iron",
+        "value" : 108,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 142,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 3.8,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "patient_id" : "88022723412",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 4,
+      "day" : 10,
+      "hours" : 13,
+      "minutes" : 52
+    },
+    "doctor_id" : 3,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.3,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 166,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 5,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 7,
+    "patient_id" : "88022723412",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 1,
+      "day" : 5,
+      "hours" : 9,
+      "minutes" : 30
+    },
+    "doctor_id" : 2,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.8,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 45,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 4.8,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 8,
+    "patient_id" : "72102631235",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 3,
+      "day" : 13,
+      "hours" : 12,
+      "minutes" : 13
+    },
+    "doctor_id" : 3,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 0.35,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 102,
+        "unit" : "μg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 9,
+    "patient_id" : "86102637895",
+    "date_time" : {
+      "year" : 2016,
+      "month" : 3,
+      "day" : 20,
+      "hours" : 12,
+      "minutes" : 50
+    },
+    "doctor_id" : 1,
+    "parameter" : [
+      {
+        "name" : "iron",
+        "value" : 125,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 134,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 2.8,
+        "unit" : "mg/dl"
+      }
+    ]
+  },
+  {
+    "id" : 10,
+    "patient_id" : "88022159876",
+    "date_time" : {
+      "year" : 2017,
+      "month" : 5,
+      "day" : 1,
+      "hours" : 11,
+      "minutes" : 11
+    },
+    "doctor_id" : 1,
+    "parameter" : [
+      {
+        "name" : "bilirubin",
+        "value" : 1.8,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "cholesterol",
+        "value" : 190,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "iron",
+        "value" : 55,
+        "unit" : "μg/dl"
+      },
+      {
+        "name" : "sodium",
+        "value" : 146,
+        "unit" : "mg/dl"
+      },
+      {
+        "name" : "potassium",
+        "value" : 2.8,
+        "unit" : "mg/dl"
+      }
+    ]
+  }
+]

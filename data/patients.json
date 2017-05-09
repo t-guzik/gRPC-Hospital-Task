@@ -1,0 +1,44 @@
+[
+  {
+    "id": "94051545631",
+    "first_name": "Adam",
+    "last_name": "Kowalski",
+    "sex": "male"
+  },
+  {
+    "id": "92062153213",
+    "first_name": "Piotr",
+    "last_name": "Nowak",
+    "sex": "male"
+  },
+  {
+    "id": "95013057291",
+    "first_name": "Anna",
+    "last_name": "Gil",
+    "sex": "female"
+  },
+  {
+    "id": "88022723412",
+    "first_name": "Paweł",
+    "last_name": "Staszewski",
+    "sex": "male"
+  },
+  {
+    "id": "72102631235",
+    "first_name": "Aleksandra",
+    "last_name": "Baran",
+    "sex": "female"
+  },
+  {
+    "id": "86102637895",
+    "first_name": "Marzena",
+    "last_name": "Baran",
+    "sex": "female"
+  },
+  {
+    "id": "88022159876",
+    "first_name": "Krzysztof",
+    "last_name": "Nowak",
+    "sex": "male"
+  }
+]

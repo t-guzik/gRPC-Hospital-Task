@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "gen.grpc.hospital.examinations";
+option java_outer_classname = "HospitalExaminationsProtos";
+
+service PatientExaminationsHandling {
+    rpc GetExaminationForPatient(Patient) returns (Examination) {}      // check patient request id
+}
+
+service DoctorExaminationsHandling {
+    rpc GetExaminationForDoctor(Patient) returns (Examination) {}               // all patients
+    rpc GetExaminationsByParameter(Parameter) returns (stream Examination) {}   // similar parameter
+    rpc GetExaminationsByLastname(Patient) returns (stream Examination) {}      // the same last name
+}
+
+service LabWorkerExaminationsHandling {
+    rpc PutExamination(Examination) returns (Status) {}     // 1 - success, 0 - failure
+}
+
+message Patient {
+    string id = 1;           // PESEL
+    string first_name = 2;
+    string last_name = 3;
+    enum Sex {
+        MALE = 0;
+        FEMALE = 1;
+    }
+
+    Sex sex = 4;
+}
+
+message Doctor {
+    int32 id = 1;
+    string first_name = 2;
+    string last_name = 3;
+}
+
+message DateTime {
+    int32 year = 1;
+    int32 month = 2;
+    int32 day = 3;
+    int32 hours = 4;
+    int32 minutes = 5;
+}
+
+message Examination {
+    int32 id = 1;
+    string patient_id = 2;
+    DateTime date_time = 3;
+    int32 doctor_id = 4;
+    repeated Parameter parameter = 5;
+}
+
+message Parameter {
+    string name = 1;
+    double value = 2;
+    string unit = 3;
+}
+
+message Status {
+    int32 value = 1;    // 1 - success, 0 - failure  
+}
+
+/*
+Bilirubina całk.	Zakres: 0-5		Norma: 0.2 - 1.1	Jednostka: mg/dl
+Cholesterol		    Zakres: 0-500	Norma: 160 - 200	Jednostka: mg/dl
+Żelazo		        Zakres: 0-300	Norma: 37 - 145	    Jednostka: μg/dl
+Sód			        Zakres: 0-300	Norma: 135 - 145	Jednostka: mg/dl
+Potas			    Zakres: 0-10	Norma: 3.5 - 5	    Jednostka: mg/dl
+*/

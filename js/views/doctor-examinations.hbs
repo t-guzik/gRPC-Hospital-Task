@@ -1,0 +1,28 @@
+<div id="doctor-examinations">
+    <form method="post" action="/doctorsingle" class="doctor-forms">
+        <h2>Get patient last examination</h2>
+        <div class="form-group">
+            <label for="id">Patient ID:</label>
+            <input type="text" class="form-control" value="72102631235" id="id" name="id">
+        </div>
+        <input type="submit" value="Get patient examination" style="color: black">
+    </form>
+
+    <form method="post" action="/doctorparameter" class="doctor-forms">
+        <h2>Get patients examinations by parameter</h2>
+        <div class="form-group">
+            <label for="parameter">Parameter name:</label>
+            <input type="text" class="form-control" value="bilirubin" id="parameter" name="parameter">
+        </div>
+        <input type="submit" value="Get examinations by parameter" style="color: black">
+    </form>
+
+    <form method="post" action="/doctorlastname" class="doctor-forms">
+        <h2>Get patients examinations by lastname</h2>
+        <div class="form-group">
+            <label for="parameter">Patients lastname:</label>
+            <input type="text" class="form-control" value="Nowak" id="lastname" name="lastname">
+        </div>
+        <input type="submit" value="Get examinations by lastname" style="color: black">
+    </form>
+</div>

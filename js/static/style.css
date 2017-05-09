@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.simple-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    color: white;
+}
+
+.form-header {
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    width: 100%;
+}
+
+#patient-examination {
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.examination-result {
+    border-radius: 5px;
+    border: solid 2px white;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 350px;
+    width: 280px;
+}
+
+
+#doctor-examinations {
+    color: white;
+    display: flex;
+    overflow: auto;
+    padding: 50px 0 50px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.doctor-forms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.doctor-table {
+    width: 40%;
+}
+
+#results {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

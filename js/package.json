@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HospitalExaminationsClientDoctor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TG",
+  "license": "ISC",
+  "dependencies": {
+    "async": "latest",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "google-protobuf": "latest",
+    "grpc": "latest",
+    "hbs": "^4.0.1",
+    "http": "0.0.0",
+    "nodemon": "^1.11.0"
+  }
+}

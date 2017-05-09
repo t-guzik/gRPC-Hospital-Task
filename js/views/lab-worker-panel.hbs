@@ -1,0 +1,75 @@
+<form method="post" action="/labworker" class="simple-form">
+    <h1 class="form-header">Examination</h1>
+    <div class="form-group">
+        <label for="id">Patient PESEL:</label>
+        <input type="text" class="form-control" value="90101000000" id="patient_id" name="patient_id">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Doctor ID:</label>
+        <input type="number" class="form-control" value="1" id="doctor_id" name="doctor_id">
+    </div>
+    <table>
+        <h3 for="parameters">Parameters:</h3>
+        <tr class="form-inline">
+            <th>
+                <label for="bilirubin">Bilirubin</label>
+            </th>
+            <th >
+                <input type="number" class="form-control" value="1" id="bilirubin" name="bilirubin">
+            </th>
+            <th>
+                <label>mg/dl</label>
+            </th>
+        </tr>
+
+        <tr class="form-inline">
+            <th >
+                <label for="cholesterol">Cholesterol</label>
+            </th>
+            <th >
+                <input type="number" class="form-control" value="200" id="cholesterol" name="cholesterol">
+            </th>
+            <th >
+                <label>mg/dl</label>
+            </th>
+        </tr>
+
+        <tr class="form-inline">
+            <th >
+                <label for="iron">Iron</label>
+            </th>
+            <th >
+                <input type="number" class="form-control" value="145" id="iron" name="iron">
+            </th>
+            <th >
+                <label>μg/dl</label>
+            </th>
+        </tr>
+
+        <tr class="form-inline">
+            <th >
+                <label for="sodium">Sodium</label>
+            </th>
+            <th >
+                <input type="number" class="form-control" value="145" id="sodium" name="sodium">
+            </th>
+            <th >
+                <label>mg/dl</label>
+            </th>
+        </tr>
+
+        <tr class="form-inline">
+            <th >
+                <label for="potassium">Potassium</label>
+            </th>
+            <th >
+                <input type="number" class="form-control" value="5" id="potassium" name="potassium">
+            </th>
+            <th >
+                <label>mg/dl</label>
+            </th>
+        </tr>
+    </table>
+
+    <input type="submit" value="Add Examination" style="color: black">
+</form>

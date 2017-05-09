@@ -1,0 +1,13 @@
+<div id="patient-examination">
+    <h2 style="border-bottom: solid 2px white">Examination ID: {{examination.id}}</h2>
+    <h4>Patient: {{#each examination.patient}} {{this}} {{/each}}</h4>
+    <h4>Date: {{examination.date_time.year}}/{{examination.date_time.month}}/{{examination.date_time.day}}</h4>
+    <h4>Time: {{examination.date_time.hours}}:{{examination.date_time.minutes}}</h4>
+    <h4>Doctor: {{#each examination.doctor}} {{this}} {{/each}}</h4>
+    <h4>Parameters:</h4>
+    <ul>
+        {{#each examination.parameters}}
+            <li>{{#each this}} {{this}} {{/each}}</li>
+        {{/each}}
+    </ul>
+</div>
